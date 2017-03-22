@@ -24,17 +24,9 @@ gem install petitest-power_assert
 
 ## Usage
 
-### 1. Prepend Petitest::PowerAssert into your test groups
-
-```ruby
-require "petitest/power_assert"
-
-class ExampleTest < Petitest::TestGroup
-  prepend ::Petitest::PowerAssert
-end
-```
-
-### 2. Write tests
+1. Require `petitest/power_assert`
+1. Prepend `Petitest::PowerAssert` into your test group
+1. Write tests as usual
 
 ```ruby
 require "petitest/autorun"
@@ -58,7 +50,5 @@ class ExampleTest < Petitest::TestGroup
   # ... tests, tests, and more tests ...
 end
 ```
-
-### 3. See the results
 
 ![image](/images/screenshot.png)
