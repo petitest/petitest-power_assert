@@ -50,7 +50,7 @@ class ExampleTest < Petitest::TestGroup
     assert_equal("foo" + "bar", :baz.to_s)
   end
 
-  # ... tests, tests, and more tests ...
+  # ... more tests ...
 end
 ```
 
