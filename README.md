@@ -3,7 +3,7 @@
 [![Gem Version](https://badge.fury.io/rb/petitest-power_assert.svg)](https://rubygems.org/gems/petitest-power_assert)
 [![Documentation](http://img.shields.io/badge/docs-rdoc.info-blue.svg)](http://www.rubydoc.info/github/petitest/petitest-power_assert)
 
-[Power Assert](https://github.com/k-tsj/power_assert) for Petitest.
+[Power Assert](https://github.com/k-tsj/power_assert) for [Petitest](https://github.com/petitest/petitest).
 
 ## Installation
 
