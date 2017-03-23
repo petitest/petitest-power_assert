@@ -1,4 +1,4 @@
-## Unreleased
+## v0.2.0
 
 - Support petitest 0.2.0
 - Drop petitest 0.1.x support
