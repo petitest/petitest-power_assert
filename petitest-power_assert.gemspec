@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "power_assert"
-  spec.add_dependency "petitest", ">= 0.1.1"
+  spec.add_dependency "petitest", ">= 0.2.0"
   spec.add_development_dependency "bundler", "~> 1.14"
   spec.add_development_dependency "petitest"
   spec.add_development_dependency "rake", "~> 10.0"

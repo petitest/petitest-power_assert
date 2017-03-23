@@ -6,12 +6,11 @@ module Petitest
     private
 
     # @note Override
-    def check(**args, &block)
+    def check(message, &block)
       ::PowerAssert.start(block, assertion_method: __callee__) do |power_assert|
         result = power_assert.yield
-        message = power_assert.message
-        message = nil if message.empty?
-        super(**args, message: message) do
+        message = power_assert.message unless power_assert.message.empty?
+        super(message) do
           result
         end
       end
